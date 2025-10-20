@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+// Converted from site.xml (HTML) to a JS module.
+// Exports the HTML as a template string and provides a helper to render it into the DOM.
+
+export const siteHTML = `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -127,3 +130,27 @@
   </div>
 </body>
 </html>
+`;
+
+/**
+ * Render the site HTML into a target DOM element.
+ * @param {HTMLElement|string} [target=document.body] - Element or selector where HTML will be inserted.
+ */
+export function renderSite(target = document.body) {
+  let el;
+  if (typeof target === 'string') {
+    el = document.querySelector(target);
+    if (!el) {
+      throw new Error(`No element matches selector: ${target}`);
+    }
+  } else if (target instanceof HTMLElement) {
+    el = target;
+  } else {
+    throw new Error('Invalid target provided to renderSite. Provide an HTMLElement or selector string.');
+  }
+
+  // If inserting a full HTML document into an element, it's common to replace its innerHTML.
+  el.innerHTML = siteHTML;
+}
+
+export default siteHTML;
