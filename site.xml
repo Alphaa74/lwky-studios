@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>L. W. K. Y. | STUDIOS — Minecraft Services</title>
+  <style>
+    body {
+      background: #25183b;
+      color: #f6f3fd;
+      font-family: 'Segoe UI', 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.7;
+    }
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      background: #2e2251cc;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px #0006;
+      padding: 2rem;
+    }
+    h1, h2, h3 {
+      color: #a78bfa;
+      margin-bottom: 0.5rem;
+    }
+    .hero {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .hero img {
+      width: 78px;
+      border-radius: 10px;
+    }
+    .services, .how-it-works, .why-us, .discord-invite {
+      margin-bottom: 2rem;
+    }
+    ul, li {
+      margin: 0.25em 0;
+    }
+    .tag {
+      background: #7834e8;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 7px;
+      padding: 0.2em 0.6em;
+      margin-right: 3px;
+    }
+    .discord-btn {
+      display: inline-block;
+      background: #5865f2;
+      color: #fff;
+      text-decoration: none;
+      padding: 0.8em 1.5em;
+      border-radius: 10px;
+      font-size: 1.1em;
+      font-weight: 600;
+      transition: background 0.2s;
+      margin-top: 1em;
+    }
+    .discord-btn:hover {
+      background: #4752c4;
+    }
+    .note {
+      color: #fad672;
+      font-size: 1em;
+      font-style: italic;
+    }
+    .credit {
+      color: #a3a3a3;
+      font-size: 0.95em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="hero">
+      <!-- Replace src= with your logo if needed -->
+      <img src="https://cdn.discordapp.com/icons/1151214441933422672/a_8bae5c20daabba846487c4387d6e98b6.webp?size=128" alt="LWKY Studios Logo"/>
+      <h1>L. W. K. Y. | STUDIOS</h1>
+      <p><strong>Grow & Build your server</strong></p>
+      <p>Quality. Professionalism. Simple.</p>
+    </div>
+
+    <section class="services">
+      <h2>What We Offer</h2>
+      <ul>
+        <li><span class="tag">Advertising</span> Promote your server with @everyone mentions, Nitro giveaways, custom channels, or optional video ads.<br>
+            <b>Basic</b>: 12.99€ | <b>Premium</b>: 29.99€+</li>
+        <li><span class="tag">Development</span> Custom Discord bots (from 7.99€, with 3 months hosting), personalized Minecraft plugins (12.99€, 15-day warranty).</li>
+        <li><span class="tag">Content Creation</span> Short-form (3 days, from 12.99€) or long-form (6 days, from 49.99€) Minecraft videos with revisions.</li>
+      </ul>
+    </section>
+
+    <section class="how-it-works">
+      <h2>How It Works</h2>
+      <ul>
+        <li>Open a ticket in the Discord server for purchases.</li>
+        <li>Pay safely via PayPal or card (15% tax applies).</li>
+        <li>No discounts over -10% unless specified.</li>
+        <li>All services include limited warranty and free tweaks depending on plan.</li>
+      </ul>
+    </section>
+
+    <section class="why-us">
+      <h2>Why Choose Us?</h2>
+      <ul>
+        <li>Cheap and honest pricing – no overcharging.</li>
+        <li>High quality services – professional results, every time.</li>
+        <li>Warranty on everything – customer support and revisions included.</li>
+        <li>Transparent, trustworthy, and simple approach.</li>
+        <li>Founded by <strong>Luckiye</strong> for the Minecraft/Discord community.</li>
+      </ul>
+    </section>
+
+    <section class="discord-invite">
+      <h2>Join L. W. K. Y. | STUDIOS</h2>
+      <a class="discord-btn" href="https://discord.gg/fTsWvzHMDV" target="_blank">Join our Discord</a>
+      <p class="note">Get your server growing today – tickets available for all services.</p>
+    </section>
+
+    <div class="credit">
+      &copy; 2025 L. W. K. Y. | STUDIOS — Minecraft &amp; Discord Services Hub
+    </div>
+  </div>
+</body>
+</html>
